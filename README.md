@@ -12,7 +12,7 @@ Data repository, analytical pipeline, and scientific findings tracking the geogr
 ### Prerequisites
 Ensure you have Python 3.8+ installed along with the required scientific computing dependencies:
 ```bash
-pip install pandas numpy matplotlib
+pip install pandas numpy matplotlib seaborn
 ```
 
 ### Running the Analysis
