@@ -20,10 +20,10 @@ To compute the exact Gini indexes and output the analytical charts directly from
 
 ```bash
 # Clone the repository
-git clone [https://github.com/TarekDib03/yemen_political_violance_fatalities_analysis](https://github.com/TarekDib03/yemen_political_violance_fatalities_analysis)
+git clone https://github.com/TarekDib03/yemen_political_violance_fatalities_analysis
 cd yemen_political_violance_fatalities_analysis
 
-# Execute the spatial and temporal aggregation notebook
+# Execute the spatial and temporal analysis
 yemen_political_violence.ipynb
 ```
 
