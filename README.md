@@ -7,25 +7,6 @@ Data repository, analytical pipeline, and scientific findings tracking the geogr
 * **Micro-Level Enclaves:** The data proves that **10% of Yemen's municipal districts absorbed roughly 68% of all national conflict fatalities**, while 75% of local districts remained heavily insulated from direct kinetic combat (accounting for just ~10% of deaths).
 * **The Truce Cliff:** High-frequency monthly tracking flags late 2018 as the absolute zenith of the war (~3,500 deaths/month during the Battle of Al Hudaydah). It maps a structural breaking point in April 2022, where a UN-brokered truce permanently dropped and flattened the fatality baseline below 250 deaths/month through 2026.
 
----
-
-## 📁 Repository Structure
-```text
-├── data/
-│   └── yemen_conflict_data.csv       # Raw input dataset containing Governorate, District, and Fatalities
-├── src/
-│   ├── lorenz_spatial_analysis.py    # Generates Governorate & District Lorenz Curves + Gini metrics
-│   └── temporal_trend_analysis.py    # Extracts annual and monthly high-frequency time series
-├── visuals/
-│   ├── governorate_lorenz.png        # Lorenz Curve at the macro-provincial scale (Gini: 0.5684)
-│   ├── district_lorenz.png           # Lorenz Curve at the micro-municipal scale (Gini: 0.7906)
-│   ├── yearly_fatalities.png         # Macro temporal chart tracking trends from 2015-2026
-│   └── monthly_fatalities.png        # High-frequency campaign wave timeline
-└── README.md                         # Project documentation and summary
-```
-
----
-
 ## 🛠️ Installation & Quickstart
 
 ### Prerequisites
